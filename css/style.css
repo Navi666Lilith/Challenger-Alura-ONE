@@ -1,0 +1,193 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+/* Header */
+
+header {
+    background-color: #0d315d;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    text-shadow: 2px #6790c1;
+    font-size: 40px;
+    margin-left: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* Main */
+
+main {
+    background: #4f719a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    margin: 20px 0;
+    display: inline-flex;
+    padding: 10px;
+}
+
+form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 25%;
+}
+
+.encript {
+    display: inline;
+    width: 700px;
+    padding: 10px;
+}
+
+.text {
+    background: #4f719a;
+    resize: none;
+    border: none;
+    width: 70%;
+    color: #D8DFE8;
+}
+
+.text::placeholder {
+    color: #0c2039;
+    font-size: 1.5em;
+  }
+
+.date {
+    display: block;
+    font-size: 10px;
+    margin: 0 0 10px;
+}
+
+.encrip-btn {
+    width: 20%;
+    padding: 15px 0;
+    font-size: 10px;
+    font-weight: bold;
+    background: #0A3871;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.encrip-btn:hover {
+    background: #b0c9e7;
+    color: #000;
+    transform: scale(1.2);
+}
+
+.desencrip-btn {
+    width: 20%;
+    padding: 15px 0;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    background: #D8DFE8;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.desencrip-btn:hover {
+    background: #0A3871;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.mens {
+    width: 355px;
+    display: block;
+    padding: 15px;
+    background: #d2d5e3;
+    border: none;
+    border-radius: 10px;
+}
+
+.result {
+    width: 85%;
+    height: 50%;
+    background: #d2d5e3;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ingr {
+    display: block;
+    font-size: 10px;
+    margin: 0 0 10px;
+}
+
+/*.copy-btn {
+    width: 20%;
+    padding: 15px 0;
+    font-size: 10px;
+    font-weight: bold;
+    background: #a1b9d9;
+    color: #000;
+    margin-left: 40%;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.copy-btn:hover {
+    background: #0A3871;
+    color: #fff;
+    transform: scale(1.2);
+}*/
+
+
+/*** Footer ***/
+
+footer {
+    text-align: center;
+    background-color: #000;
+    padding: 40px;
+}
+
+.github{
+    width: 47px;
+    margin-left: -30px;
+}
+
+.linkedin{
+    width: 60px;
+    position: absolute;
+    margin-top: -8px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 20px;
+    margin-bottom: 15px;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
+/*** Fonts ***/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Mono:ital,wght@1,300&display=swap');

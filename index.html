@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Script 01 - Encriptador de Texto</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Encriptador de Texto</h1>
+        </header>
+        
+        <main>
+            <selection class="principal">
+                <form>
+                    <div class="encript">
+                        <textarea name="texto" cols="70" rows="10" id="texto" class="text" required placeholder="Inserte el texto aquí"></textarea>                   
+                        <p class="date">Solo letras minúsculas y sin acentos</p>
+                        <input type="submit" value="Encriptar" class="encrip-btn">
+                        <input type="submit" value="Desencriptar" class="desencrip-btn">
+                        
+                    </div>
+
+                    <div class="mens">
+                        <p class="result"></p>
+                        <h3 class="title">Ningún mensaje fue encontrado</p>
+                        <p class="ingr">Ingrese el mensaje que quiere encriptar o desencriptar</p>
+                    </div>
+                </form>
+            </selection>
+        </main>
+
+        <footer>
+            <a href="https://github.com/Navi666Lilith"><img src="imagen/descarga.png" class="github"></a>
+            <a href="https://www.linkedin.com/in/belén-buttarelli"><img src="imagen/logo-linkedin-blanco.png" class="linkedin"></a>
+            <p class="copyright">&copy Desarrollado por Belén Buttarelli - Copyright 2022</p>
+        </footer>
+        
+        
+        <script src="js/seleccionar.js"></script>
+    </body>
+
+</html>
+
